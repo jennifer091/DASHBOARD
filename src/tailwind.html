@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TAILWIND</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body class="bg-white grid w-[100%] grid-cols-[1fr_4fr] grid-rows-[1fr_7fr]">
+    <aside
+      class="border-[1px] hidden lg:block h-[100%] w-[20%] fixed bg-blue-500 text-white border-black col-start-1 col-end-2 row-start-1 row-end-3 font-bold"
+    >
+      <div class="flex items-center p-5 text-2xl">
+        <span><i class="bi bi-grid-1x2-fill"></i></span>
+        <p class="pl-3 text-lg">Dashboard</p>
+      </div>
+      <section class="mb-10">
+        <div class="iconsDiv">
+          <span><i class="bi bi-house"></i></span>
+          <p>Home</p>
+        </div>
+        <div class="iconsDiv">
+          <span><i class="bi bi-person"></i></span>
+          <p>Profile</p>
+        </div>
+        <div class="iconsDiv">
+          <span><i class="bi bi-envelope"></i></span>
+          <p>Message</p>
+        </div>
+        <div class="iconsDiv">
+          <span><i class="bi bi-clock-history"></i></span>
+          <p>History</p>
+        </div>
+        <div class="iconsDiv">
+          <span><i class="bi bi-journals"></i></span>
+          <p>Tasks</p>
+        </div>
+        <div class="iconsDiv">
+          <span><i class="bi bi-people"></i></span>
+          <p>Communities</p>
+        </div>
+      </section>
+      <section>
+        <div class="iconsDiv">
+          <span><i class="bi bi-gear"></i></span>
+          <p>Settings</p>
+        </div>
+        <div class="iconsDiv">
+          <span><i class="bi bi-question-circle"></i></span>
+          <p>Support</p>
+        </div>
+        <div class="iconsDiv">
+          <span><i class="bi bi-shield-lock"></i></span>
+          <p>Privacy</p>
+        </div>
+      </section>
+    </aside>
+    <header
+      class="bg-white shadow-black shadow-md col-start-1 lg:col-start-2 col-end-3 row-start-1 row-end-2 px-10 py-3"
+    >
+      <section class="flex items-center justify-between mb-4">
+        <div class="w-[70%] flex items-center">
+          <span class="pr-3"><i class="bi bi-search"></i></span>
+          <input type="text" class="bg-gray-200 w-[70%] p-1 rounded-md" />
+        </div>
+        <div class="flex gap-5 items-center font-bold">
+          <span><i class="bi bi-bell"></i></span>
+          <img
+            src="images/img1.jpg"
+            height="25"
+            width="30"
+            class="rounded-full"
+          />
+          <p>Morgan Oakley</p>
+        </div>
+      </section>
+      <section class="flex items-center justify-between">
+        <div class="flex gap-3">
+          <img
+            src="./images/nurse.jpg"
+            alt=""
+            height="55"
+            width="55"
+            class="rounded-full"
+          />
+          <div class="font-semibold">
+            <p>Hi, there</p>
+            <h2 class="text-lg">Morgan Oakley (@morgan)</h2>
+          </div>
+        </div>
+        <div class="flex gap-5">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </section>
+    </header>
+    <main
+      class="bg-gray-200 col-start-1 lg:col-start-2 col-end-3 row-start-2 row-end-3 grid grid-cols-[3fr_1fr] gap-3"
+    >
+      <section class="col-start-1 col-end-2 grid grid-rows-[1fr_12fr]">
+        <p class="row-start-1 row-end-2 font-extrabold p-3 text-lg">
+          Your Projects
+        </p>
+        <div class="row-start-2 row-end-3 grid grid-cols-2">
+          <div class="item">
+            <p class="font-bold text-lg">Super cool project</p>
+            <p class="mb-5">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
+              vitae numquam sequi fugiat, blanditiis expedita nesciunt facilis
+              laudantium repudiandae beatae cumque. Qui dolorem non laudantium
+              nesciunt vero iste laborum molestiae.
+            </p>
+            <ul class="flex justify-end items-center">
+              <li><i class="bi bi-star"></i></li>
+              <li class="li2"><i class="bi bi-eye"></i></li>
+              <li><i class="bi bi-gender-trans"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <p class="font-bold text-lg">Super cool project</p>
+            <p class="mb-5">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
+              vitae numquam sequi fugiat, blanditiis expedita nesciunt facilis
+              laudantium repudiandae beatae cumque. Qui dolorem non laudantium
+              nesciunt vero iste laborum molestiae.
+            </p>
+            <ul class="flex justify-end items-center">
+              <li><i class="bi bi-star"></i></li>
+              <li class="li2"><i class="bi bi-eye"></i></li>
+              <li><i class="bi bi-gender-trans"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <p class="font-bold text-lg">less cool project</p>
+            <p class="mb-5">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
+              vitae numquam sequi fugiat, blanditiis expedita nesciunt facilis
+              laudantium repudiandae beatae cumque. Qui dolorem non laudantium
+              nesciunt vero iste laborum molestiae.
+            </p>
+            <ul class="flex justify-end items-center">
+              <li><i class="bi bi-star"></i></li>
+              <li class="li2"><i class="bi bi-eye"></i></li>
+              <li><i class="bi bi-gender-trans"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <p class="font-bold text-lg">Impossible App</p>
+            <p class="mb-5">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
+              vitae numquam sequi fugiat, blanditiis expedita nesciunt facilis
+              laudantium repudiandae beatae cumque. Qui dolorem non laudantium
+              nesciunt vero iste laborum molestiae.
+            </p>
+            <ul class="flex justify-end items-center">
+              <li><i class="bi bi-star"></i></li>
+              <li class="li2"><i class="bi bi-eye"></i></li>
+              <li><i class="bi bi-gender-trans"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <p class="font-bold text-lg">Easy Peasy App</p>
+            <p class="mb-5">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
+              vitae numquam sequi fugiat, blanditiis expedita nesciunt facilis
+              laudantium repudiandae beatae cumque. Qui dolorem non laudantium
+              nesciunt vero iste laborum molestiae.
+            </p>
+            <ul class="flex justify-end items-center">
+              <li><i class="bi bi-star"></i></li>
+              <li class="li2"><i class="bi bi-eye"></i></li>
+              <li><i class="bi bi-gender-trans"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <p class="font-bold text-lg">Super cool project</p>
+            <p class="mb-5">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
+              vitae numquam sequi fugiat, blanditiis expedita nesciunt facilis
+              laudantium repudiandae beatae cumque. Qui dolorem non laudantium
+              nesciunt vero iste laborum molestiae.
+            </p>
+            <ul class="flex justify-end items-center">
+              <li><i class="bi bi-star"></i></li>
+              <li class="li2"><i class="bi bi-eye"></i></li>
+              <li><i class="bi bi-gender-trans"></i></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="col-start-2 col-end-3">
+        <div class="mb-5">
+          <p class="text-lg font-extrabold p-3 mb-5">Announcements</p>
+          <section class="bg-white p-4 rounded-md">
+            <div class="mb-4">
+              <p class="font-bold text-[14px]">Site Maintenance</p>
+              <p class="lorem">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
+                harum magni provident mollitia delectus ullam similique
+              </p>
+              <hr />
+            </div>
+            <div class="mb-4">
+              <p class="font-bold text-[14px]">Community Share Day</p>
+              <p class="lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam eius laboriosam beatae totam doloremque laudantium
+              </p>
+              <hr />
+            </div>
+            <div class="mb-4">
+              <p class="font-bold text-[14px]">Updated Privacy Policy</p>
+              <p class="lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis voluptatum quae ad sequi nemo aliquid deleniti
+              </p>
+            </div>
+          </section>
+        </div>
+        <div>
+          <p class="text-lg font-bold mb-3">Trending</p>
+          <section class="bg-white p-4 rounded-md">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
